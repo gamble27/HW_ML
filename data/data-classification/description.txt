@@ -1,0 +1,16 @@
+1. https://archive.ics.uci.edu/ml/datasets/Abalone
+2. https://archive.ics.uci.edu/ml/datasets/Adult
+3. https://archive.ics.uci.edu/ml/datasets/Arrhythmia
+4. https://archive.ics.uci.edu/ml/datasets/Credit+Approval (crx)
+5. https://archive.ics.uci.edu/ml/datasets/Contraceptive+Method+Choice (cmc)
+6. https://archive.ics.uci.edu/ml/datasets/Cylinder+Bands
+7. https://archive.ics.uci.edu/ml/datasets/Echocardiogram
+8. https://archive.ics.uci.edu/ml/datasets/Flags
+9. https://archive.ics.uci.edu/ml/datasets/Glass+Identification
+10. https://archive.ics.uci.edu/ml/datasets/Haberman%27s+Survival
+11. https://archive.ics.uci.edu/ml/datasets/Heart+Disease (processed.clivelend.data)
+12. https://archive.ics.uci.edu/ml/datasets/Hepatitis
+
+
+
+https://www.kaggle.com/team-ai/spam-text-message-classification
