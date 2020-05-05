@@ -1,32 +1,9 @@
-import time
+from benchmark import Benchmark
 import numpy as np
 import pandas as pd
 from tqdm import  tqdm
 from statsmodels.regression.linear_model import OLS
 from sklearn.linear_model import LinearRegression
-
-
-class Benchmark:
-    """
-    a custom benchmark class
-    with runtime getter method
-    """
-    def __init__(self, function):
-        self.__f = function
-        self.__runtime  = 0
-
-    def __call__(self, *args, **kwargs):
-        start = time.time()
-
-        values = self.__f(*args, **kwargs)
-
-        end = time.time()
-        self.__runtime = end - start
-
-        return values
-
-    def get_runtime(self):
-        return self.__runtime
 
 
 def generate_regressors(dim: int, betas: np.ndarray) -> pd.DataFrame:
